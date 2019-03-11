@@ -63,7 +63,7 @@ def leitura_palavra_secreta():
 
         return palavra_secreta
 
-    if escolha == 2:
+    if escolha == 2: 
         arquivo = open('palavras.txt')
 
         palavras = []
