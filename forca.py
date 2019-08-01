@@ -1,5 +1,6 @@
 ﻿from random import randrange
 from time import sleep
+import os
 
 
 def jogar():
@@ -59,7 +60,7 @@ def leitura_palavra_secreta():
 
         palavra_secreta = input("Digite a palavra que ira ser adivinhada: ").upper().strip()
 
-        print('\n'*60)
+        os.system('clear')
 
         return palavra_secreta
 
